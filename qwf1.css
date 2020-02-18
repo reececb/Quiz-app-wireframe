@@ -1,0 +1,41 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+header {
+  border: solid grey 1px;
+  margin-bottom: 15px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+  background: lightgrey;
+  height: 140px;
+  width: 100%
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: lightslategrey;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+.btn {
+
+
+    top: 200px;
+    left: 180px;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+}
+p {
+  text-align: center;
+}
